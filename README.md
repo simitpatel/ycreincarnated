@@ -94,9 +94,6 @@ Dynamic Quarto template with variable substitution:
 template_text <- gsub("{{company_name}}", pitch_data$company_name, template_text)
 ```
 
-### 4. Multi-format Rendering
-Supports HTML (RevealJS), PowerPoint, and PDF output with fallback handling.
-
 ## Development Notes
 
 ### Cost Optimization
