@@ -11,7 +11,7 @@ Application to turn a PDF of a YC application into a 10-slide pitch deck using A
 This R Shiny application uses Claude AI models to:
 1. **Validate** uploaded PDFs as legitimate YC applications (using cost-effective Claude Haiku)
 2. **Extract** structured pitch deck content (using Claude Sonnet with ellmer's structured data types)
-3. **Generate** professional presentations in multiple formats (HTML, PowerPoint, PDF)
+3. **Generate** rough draft of a presentation in PowerPoint format
 4. **Deliver** results via email with cloud-hosted download links
 
 ## Tech Stack
